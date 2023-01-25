@@ -1,5 +1,5 @@
 package programs;
-public class biggestNumber {
+public class BigTwoNum {
     public static void main(String[] args){
         int a = 200;
         int b = 40;
