@@ -1,16 +1,17 @@
 public class SumOfDigit{
     public static void main(String[] args){
         // sum of Digit
-        // a = 123 ;
-         
+        // 123 = 1+2+3=6
 
-         int num = 123; // 12, 1
-         int result = 0; //3, 5, 6
 
-        for(int i=1; i<=3; i++){// 1<=3 , 2<=3, 3<=3 , 4<=3
-            int rem = num % 10 ; // 123%10=3, 12%10=2, 1
-            result = result +rem ; // 0+3=3, 3+2=5 , 5+1=6
-            num = num/10 ; // 12, 1, 1/10=0.1
+         int num = 123; // 0
+         int result = 0; //6
+                //   4<=3
+                
+        for(int i=1; i<=3; i++){                 
+            int rem = num % 10 ;// 12 % 10 = 1
+            result = result +rem ; // 5+1=6
+            num = num/10 ; // 12 / 10 =0
         }
 
         System.out.println("result "+result);
