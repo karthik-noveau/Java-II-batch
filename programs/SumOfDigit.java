@@ -13,7 +13,7 @@ public class SumOfDigit{
             result = result +rem ; // 5+1=6
             num = num/10 ; // 12 / 10 =0
         }
-
         System.out.println("result "+result);
     }
 }
+
