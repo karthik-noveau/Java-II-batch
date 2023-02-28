@@ -19,7 +19,7 @@ public class Duplicate{
 
         // manual input
 
-        // int[] dup = new int[]{5,4,4,2,2};
+        // int[] dup = new int[]{5,4,4,2,2};  // 22445
         // int len = dup.length;
         
         for(int i=0; i<len; i++){
